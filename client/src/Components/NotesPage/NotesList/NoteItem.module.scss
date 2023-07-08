@@ -1,0 +1,126 @@
+$mainTextColor: #FFFFFF;
+$btnsColor: #5E659D;
+
+.notes_list_item {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    .delete_btn {
+        width: 265px;
+        height: 81px;
+        background: $btnsColor;
+        border-radius: 10px;
+        color: $mainTextColor;
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    .input {
+        width: 70%;
+        height: 40px;
+        background: #FFFFFF;
+        border: 4px solid #DBAC74;
+        border-radius: 10px;
+        font-size: 20px;
+        padding: 10px;
+        color: $btnsColor;
+    }
+
+    .textarea {
+        border-radius: 5px;
+        border: 4px solid #DBAC74;
+        font-size: 20px;
+        padding: 10px;
+        color: $btnsColor;
+        width: 100%;
+        resize: none;
+    }
+
+    .paragraph_and_edit {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    .edit_btn {
+        background-color: #fff;
+        width: 40px;
+        height: 20px;
+        border-radius: 3px;
+    }
+
+    .headline_and_edit{
+        display: flex;
+        align-items: center;
+        column-gap: 15px;
+    }
+
+    .note_and_time {
+        display: flex;
+        flex-direction: column;
+        row-gap: 5px;
+    }
+}
+
+
+//черная тема
+.black_theme_for_note {
+    background-color: #000;
+    .edit_btn {
+        background-color: aquamarine;
+    }
+
+    .note_and_time {
+        .time_were_note_was_created {
+            color: aquamarine;
+        }
+    }
+}
+
+//белая тема
+.white_theme_for_note{
+    background-color: #fff;
+    color: #000;
+    .edit_btn {
+        color: #fff;
+        background-color: cornflowerblue;
+    }
+
+    .note_and_time {
+        .time_were_note_was_created {
+            color: cornflowerblue;
+        }
+    }
+}
+
+//темно-сланцево-серая тема
+.darkslategray_theme_for_note{
+    background-color: darkslategray;
+    .edit_btn {
+        background-color: lightgreen;
+    }
+
+    .note_and_time {
+        .time_were_note_was_created {
+            color: lightgreen;
+        }
+    }
+}
+
+//светло желтая тема
+.lightyellow_theme_for_note{
+    background-color: khaki;
+    color: #000;
+    .edit_btn {
+        color: #fff;
+        background-color: darkred;
+    }
+
+    .note_and_time {
+        .time_were_note_was_created {
+            color: darkred;
+        }
+    }
+}

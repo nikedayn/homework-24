@@ -1,0 +1,28 @@
+$btnsColor: #5E659D;
+
+.form_item_block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    input {
+        width: 70%;
+        height: 55px;
+        background: #FFFFFF;
+        border: 4px solid #DBAC74;
+        border-radius: 20px;
+        font-size: 20px;
+        padding: 10px;
+        color: $btnsColor;
+    }
+    
+    select {
+        width: 70%;
+        height: 55px;
+        background: #FFFFFF;
+        border: 4px solid #DBAC74;
+        border-radius: 20px;
+        font-size: 20px;
+        padding: 10px;
+        color: $btnsColor;
+    }
+}

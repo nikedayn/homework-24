@@ -1,0 +1,27 @@
+//меню хедера
+.navigation_menu {
+    display: flex;
+    align-items: center;
+    column-gap: 60px;
+    @media (max-width: 650px) {
+        column-gap: 20px;
+    }
+
+    .navigation_menu_item{
+        text-align: center;
+        font-size: 32px;
+        line-height: 48px;
+        display: flex;
+    }
+}
+
+//меню футера
+.footer_menu{
+    display: flex;
+    align-items: center;
+    column-gap: 70px;
+    @media (max-width: 1024px) {
+        column-gap: 0;
+        justify-content: space-between;
+    }
+}

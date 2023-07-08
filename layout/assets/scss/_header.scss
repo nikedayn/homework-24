@@ -1,0 +1,40 @@
+header {
+    padding-top: 45px;
+    margin-bottom: 30px;
+    .container {
+        display: flex;
+        column-gap: 30px;
+        @media (max-width: 650px) {
+            justify-content: space-between;
+        }
+    }
+}
+
+.logo_and_name {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 130px;
+    p {
+        position: absolute;
+        left: 30px;
+        font-size: 40px;
+        line-height: 60px;
+    }
+}
+
+.navigation_menu {
+    display: flex;
+    align-items: center;
+    column-gap: 60px;
+    @media (max-width: 650px) {
+        column-gap: 20px;
+    }
+
+    .navigation_menu_item {
+        text-align: center;
+        font-size: 32px;
+        line-height: 48px;
+        display: flex;
+    }
+}

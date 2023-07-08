@@ -1,0 +1,15 @@
+main{
+    @media (max-width: 1024px) {
+        align-self: center;
+    }
+    
+    img {
+        position: absolute;
+        z-index: 1;
+        bottom: 0;
+        right: 0;
+        @media (max-width: 1024px) {
+            display: none;
+        }
+    }
+}

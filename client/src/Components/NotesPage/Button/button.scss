@@ -1,0 +1,12 @@
+$btnsColor: #5E659D;
+$mainTextColor: #FFFFFF;
+
+.create_note {
+    width: 265px;
+    height: 81px;
+    background: $btnsColor;
+    border-radius: 10px;
+    color: $mainTextColor;
+    font-size: 40px;
+    line-height: 60px;
+}

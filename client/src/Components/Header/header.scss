@@ -1,0 +1,14 @@
+header {
+    padding-top: 45px;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 2;
+    
+    .container{
+        display: flex;
+        column-gap: 30px;
+        @media (max-width: 650px) {
+            justify-content: space-between;
+        }
+    }
+}

@@ -1,0 +1,90 @@
+/* poppins-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/poppins-v20-latin-regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/poppins-v20-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/poppins-v20-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/poppins-v20-latin-regular.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/poppins-v20-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/poppins-v20-latin-regular.svg#Poppins') format('svg'); /* Legacy iOS */
+}
+
+// vars
+$bodyColor: #DBAC74;
+$mainTextColor: #FFFFFF;
+$btnsColor: #5E659D;
+$timeForNotesColor:aquamarine;
+
+// global styles
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: $bodyColor;
+    color: $mainTextColor;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: none;
+}
+
+.wraper {
+    overflow-x: hidden;
+    position: relative;
+}
+
+.container {
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: $mainTextColor;
+}
+
+button {
+    display: block;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+//header
+@import 'header';
+
+//main
+@import 'main';
+
+//footer
+@import 'footer';

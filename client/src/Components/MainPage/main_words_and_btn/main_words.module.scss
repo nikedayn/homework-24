@@ -1,0 +1,29 @@
+.main_words{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    row-gap: 30px;
+    position: relative;
+    z-index: 2;
+
+    .main_slogan{
+        font-size: 110px;
+        line-height: 100px;
+    }
+
+    .bottom_text {
+        font-size: 34px;
+        line-height: 51px;
+    }
+
+    .join_us{
+        width: 265px;
+        height: 81px;
+        background: #5E659D;
+        border-radius: 10px;
+        color: #FFFFFF;
+        font-size: 40px;
+        line-height: 60px;
+    }
+}
